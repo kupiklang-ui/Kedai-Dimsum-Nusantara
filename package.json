@@ -1,0 +1,36 @@
+{
+  "name": "dimsum-pos-mvp",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.21.1",
+    "@pinia/nuxt": "^0.9.0",
+    "bcryptjs": "^3.0.2",
+    "drizzle-orm": "^0.39.3",
+    "mysql2": "^3.12.0",
+    "nuxt": "^3.16.2",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.5",
+    "typescript": "^5.7.3",
+    "vue-tsc": "^2.2.8"
+  }
+}

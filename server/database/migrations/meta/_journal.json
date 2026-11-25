@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1795404533067,
+      "tag": "0000_init_dimsum_pos",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1795412168245,
+      "tag": "0001_add_production_logs",
+      "breakpoints": true
+    }
+  ]
+}
