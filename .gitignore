@@ -22,5 +22,5 @@ logs
 .DS_Store
 Thumbs.db
 
-# Uploaded menu images
-uploads/
+# Uploaded menu images (root folder only — keep server/api/uploads/ tracked!)
+/uploads/
